@@ -1,0 +1,10 @@
+{
+  "prompt": "Create a 10-second cinematic video about a startup team working late at night to meet a deadline. Show tension, collaboration, and victory at sunrise with music.",
+  "constraints": {
+    "totalDurationSec": 10,
+    "aspectRatio": "16:9",
+    "fps": 30,
+    "language": "en",
+    "deterministic": false
+  }
+}

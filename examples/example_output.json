@@ -1,0 +1,171 @@
+{
+  "plan": {
+    "scenesCount": 3,
+    "notes": "Generated 3 scene(s) from prompt",
+    "prompt": "Create a 10-second cinematic video about a startup team working late at night to meet a deadline. Show tension, collaboration, and victory at sunrise with music."
+  },
+  "scene": {
+    "scenes": [
+      {
+        "id": "scene_01",
+        "title": "The Midnight Push",
+        "durationSec": 3.5,
+        "rows": [
+          {
+            "id": "row-1-1",
+            "kind": "video",
+            "actions": [
+              {
+                "id": "action-1-1",
+                "type": "video",
+                "startSec": 0,
+                "durationSec": 3.5,
+                "props": {
+                  "type": "video",
+                  "src": "office_night_focused_montage.mp4",
+                  "description": "Montage of tight close-ups on hands typing, focused faces, screens."
+                },
+                "effects": []
+              },
+              {
+                "id": "action-1-2",
+                "type": "audio",
+                "startSec": 0,
+                "durationSec": 3.5,
+                "props": {
+                  "type": "audio",
+                  "src": "tense_ambient_hum.mp3",
+                  "description": "Subtle, low synth hum mixed with distant keyboard clicks and mouse scrolls."
+                },
+                "effects": []
+              },
+              {
+                "id": "action-1-3",
+                "type": "text",
+                "startSec": 0,
+                "durationSec": 3.5,
+                "props": {
+                  "type": "text",
+                  "src": "03:47 AM",
+                  "description": "Digital clock overlay in the bottom-right corner, subtly fading in."
+                },
+                "effects": []
+              }
+            ],
+            "transitions": [
+              {
+                "name": "cut",
+                "props": {}
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "scene_02",
+        "title": "Collaborative Spark",
+        "durationSec": 3.5,
+        "rows": [
+          {
+            "id": "row-2-1",
+            "kind": "video",
+            "actions": [
+              {
+                "id": "action-2-1",
+                "type": "video",
+                "startSec": 0,
+                "durationSec": 3.5,
+                "props": {
+                  "type": "video",
+                  "src": "team_huddle_breakthrough.mp4",
+                  "description": "Mid-shot of team members collaborating intensely over a monitor."
+                },
+                "effects": []
+              },
+              {
+                "id": "action-2-2",
+                "type": "audio",
+                "startSec": 0,
+                "durationSec": 3.5,
+                "props": {
+                  "type": "audio",
+                  "src": "light_percussion_buildup.mp3",
+                  "description": "Subtle, rising percussive tension leading to a soft chime."
+                },
+                "effects": []
+              }
+            ],
+            "transitions": [
+              {
+                "name": "cut",
+                "props": {}
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "scene_03",
+        "title": "Dawn's Triumph",
+        "durationSec": 3,
+        "rows": [
+          {
+            "id": "row-3-1",
+            "kind": "video",
+            "actions": [
+              {
+                "id": "action-3-1",
+                "type": "video",
+                "startSec": 0,
+                "durationSec": 3,
+                "props": {
+                  "type": "video",
+                  "src": "sunrise_office_wide_victory.mp4",
+                  "description": "Wide shot of the office with sunrise through window, team silhouetted."
+                },
+                "effects": []
+              },
+              {
+                "id": "action-3-2",
+                "type": "audio",
+                "startSec": 0,
+                "durationSec": 3,
+                "props": {
+                  "type": "audio",
+                  "src": "uplifting_ambient_music.mp3",
+                  "description": "Soft, hopeful ambient melody with orchestral swells."
+                },
+                "effects": []
+              },
+              {
+                "id": "action-3-3",
+                "type": "text",
+                "startSec": 0,
+                "durationSec": 3,
+                "props": {
+                  "type": "text",
+                  "src": "DEADLINE MET",
+                  "description": "Large, central overlay text that fades in and out triumphantly."
+                },
+                "effects": []
+              }
+            ],
+            "transitions": [
+              {
+                "name": "fade",
+                "props": {}
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "aspectRatio": "16:9",
+      "fps": 30,
+      "totalDurationSec": 10,
+      "generator": "scene-builder-agent",
+      "version": "1.0.0"
+    }
+  }
+}
