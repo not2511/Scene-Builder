@@ -71,7 +71,7 @@ GOOGLE_API_KEY=your_api_key_here
 Launch the FastAPI app using **Uvicorn**:
 
 ```bash
-uvicorn main:app --reload
+uvicorn src.main:app --reload
 ```
 
 Once running, you’ll see:
